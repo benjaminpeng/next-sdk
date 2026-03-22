@@ -21,6 +21,7 @@ import { reactive, onUnmounted, ref } from 'vue'
 import { Html5Qrcode, Html5QrcodeScanType } from 'html5-qrcode'
 import { IconScan } from '@opentiny/vue-icon'
 import { TrIconButton } from '@opentiny/tiny-robot'
+import { showToast } from 'vant'
 
 defineOptions({
   name: 'QrCodeScan'

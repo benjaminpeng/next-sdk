@@ -1,0 +1,44 @@
+:root {
+  color-scheme: light;
+  font-family:
+    Inter,
+    'PingFang SC',
+    'Microsoft YaHei',
+    sans-serif;
+  background: #f9f9ff;
+  color: #151c28;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  min-width: 1280px;
+  background:
+    radial-gradient(circle at top left, rgba(0, 87, 195, 0.08), transparent 32%),
+    linear-gradient(180deg, #fbfcff 0%, #f3f6ff 100%);
+  color: #151c28;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+.tr-bubbule__body p {
+  margin: 8px 0;
+}
+
+.tiny-card {
+  border-radius: 18px !important;
+}

@@ -1,0 +1,33 @@
+{
+  "name": "expense-ai-demo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@opentiny/next-remoter": "workspace:*",
+    "@opentiny/next-sdk": "workspace:*",
+    "@opentiny/vue": "catalog:",
+    "vant": "catalog:",
+    "vue": "catalog:",
+    "vue-router": "catalog:"
+  },
+  "devDependencies": {
+    "@opentiny/unplugin-tiny-vue": "catalog:",
+    "@vant/auto-import-resolver": "catalog:",
+    "@types/node": "catalog:",
+    "@vitejs/plugin-vue": "catalog:",
+    "@vue/tsconfig": "catalog:",
+    "less": "catalog:",
+    "typescript": "catalog:",
+    "unplugin-auto-import": "catalog:",
+    "unplugin-vue-components": "catalog:",
+    "vite": "catalog:",
+    "vite-svg-loader": "catalog:",
+    "vue-tsc": "catalog:"
+  }
+}
